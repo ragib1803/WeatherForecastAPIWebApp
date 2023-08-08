@@ -1,0 +1,82 @@
+body {
+    
+  font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #386865;
+    color: #7c2121;
+  }
+  
+  .container {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a4eaff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url('bg.webp');
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30vh;
+    
+  }
+
+ 
+
+  button {
+    padding: 10px;
+    background-color: #7c2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: flex;
+    
+  }
+  
+  .forecast-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: wheat;
+    width: 30vh;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .day-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .forecast-item {
+    margin-bottom: 8px;
+    
+  }
+  
